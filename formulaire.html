@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html PUBLIC "" ""><HTML lang="en"><HEAD><META content="IE=11.0000" 
+http-equiv="X-UA-Compatible">
+<META charset="UTF-8">     
+<META http-equiv="X-UA-Compatible" content="IE=edge">     
+<META name="viewport" content="width=h, initial-scale=1.0">     
+<TITLE>formulaire</TITLE> 
+<fieldset>
+<legend>vos coordonnées</legend><!--titre du fieldset-->
+<label for="name">Quel est votre nom?</label><br/>
+<input type="text"name="nom"id="nom"tabindex="10"/><br/>
+<label for="prénom">Quel est votre prénom?</label><br/>
+<input type="text"name="prénom"id="prénom"tabindex="20"/><br/>
+<label for="name">Quel est votre émail?</label><br/>
+<input type="text"name="émail"id="émail"tabindex="30"/><br/>
+<label for="name">Quel est votre mot de passe?</label><br/>
+<input type="text"name="mot de passe"id="code"tabindex="40"/><br/>
+<input type="radio" name="sexe"value="homme"/>Homme <br/>
+<input type="radio" name="sexe"value="femme"/>Femme <br/>
+<select name="pays"size"1"> 
+    <option value="benin"></option>
+    <option value="togo"></option>
+    <option value="nigeria"></option>
+    <option value="ghana"></option>
+    <option value="=niger"></option>
+</select>
+<br/>
+</fieldset>
+<fieldset> 
+    <legend>vos gouts </legend><!--titre du fieldset-->
+    <input type="checkbox"name="pomme" value="pomme"/>Pommes<br/>
+    <input type="checkbox"name="mangue" value="mangue"/>Mangues<br/>
+    <fieldset> 
+        <legend> votre souhait</legend><!--titre du fieldset-->
+        <p> 
+            faites votre souhait que vous voudriez voir exaucé:<br/> 
+            <input type="radio" name="souhait"value="intelligent"id="intelligent"tabindex="40"/><label 
+            for ="intelligent>"Etre intelligent </label><br/>
+            <input type="radio" name="souhait"value="riche"id="riche"tabindex="50"/><label
+            for ="riche">"Etre riche </label><br/>
+            <input type="radio" name="souhait"value="pauvre"id="pauvre"tabindex="60"/><label
+            for="pauvre">"Etre pauvre</label><br/>
+            <input type="radio" name="souhait "value="autre"id="aitre"tabindex="70"/<label
+            for="autre">"Autre ..."></label><br/>
+        </p>
+        <p> 
+            <label for="precision ">Si" autre";veuillez preciser:</label><br/>
+            <textarea name="precision"id="precision"cols="40"rows="4"tabindex="80"></textarea>
+        </p>
+    </fieldset>
+    <fieldset> 
+        <legend><b>Envoyez nous votre photo</b></legend>
+        <input type="file"name="fichier"accept="image/jpeg"/>?
+        <input type="hidden"name"=MAX_FILE_SIZE" value="10000"/>
+        <br/><br/>
+        <inputtype="reset"value="Effacer"/>
+        &nbsp;&nbsp;&nbsp;<input type="submit"value"=Envoyez"/>
+        <br /><br/>
+   </fieldset>
+   <body bgcolor="aqua"></body>
+    
